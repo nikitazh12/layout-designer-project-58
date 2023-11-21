@@ -28,15 +28,127 @@
   --h3: 34px;
 }
 
-.w-1110 {
-  width: 1110px;
-  padding-bottom: 100px;
-}
-/** Секция-1 **/
 .header-section {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  color: var(--main);
+  font-size: var(--h2);
+  font-family: Neucha, serif;
+  line-height: var(--lineheight-headline);
+}
+
+p {
+  color: var(--white);
+  font-size: var(--font-size);
+  font-family: OpenSans, serif;
+  line-height: var(--line-height);
+}
+
+.w-1110 {
+  width: 1110px;
+  padding-bottom: 100px;
+}
+
+/** Секция-1 **/
+
+.header-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brown);
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  content: "";
+}
+
+.headline {
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  margin: 0;
+  color: var(--dark);
+  font-weight: 400;
+  font-size: var(--h1);
+  font-family: Neucha, serif;
+  line-height: var(--lineheight-headline);
+}
+
+.orange {
+  color: var(--main);
+}
+
+.main-img {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  height: 525px;
+}
+
+.columns {
+  display: flex;
+  padding-top: 165px;
+  column-gap: 30px;
+}
+
+.column-1 {
+  flex: 1;
+}
+
+.column-2 {
+  flex: 1;
+}
+.button-1 {
+  position: relative;
+  display: block;
+  width: max-content;
+  margin-top: 40px;
+  padding: 12px 24px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: var(--font-size);
+  font-family: OpenSans, serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--main);
+  border: none;
+}
+
+.button-1 a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.button-1:hover {
+  background-color: #ea7600;
+}
+
+.p-text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: var(--font-size);
+  font-family: OpenSans, serif;
+  line-height: 26px;
 }
