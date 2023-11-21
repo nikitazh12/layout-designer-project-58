@@ -191,3 +191,180 @@ h1 {
 }
 
 /** Секция-3 **/
+
+#navigation {
+  position: relative;
+  z-index: 1;
+  margin-top: -100px;
+  padding-top: 200px;
+  background-color: var(--main-dark);
+}
+
+.menu-1,
+.menu-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-1 {
+  margin-bottom: 20px;
+}
+
+.menu-2 {
+  padding-bottom: 100px;
+}
+
+.numbers {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: var(--dark);
+  font-weight: 400;
+  font-size: 64px;
+  font-family: Neucha, serif;
+  font-style: normal;
+  line-height: 1;
+}
+
+.card-headlines {
+  margin: 0;
+  color: var(--main);
+  font-weight: 400;
+  font-size: 34px;
+  font-family: Neucha, serif;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.card-text {
+  color: var(--text-color);
+  font-weight: 400px;
+  font-size: 16px;
+  font-family: OpenSans, serif;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.card-0 {
+  padding: 0 10px 0 0;
+  background-color: var(--main-dark);
+}
+
+.introduction {
+  margin: 0;
+  font-weight: 400;
+  font-size: 52px;
+  font-family: Neucha, serif;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  padding: 24px;
+  background-color: var(--light);
+}
+
+.card-1,
+.card-4 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.w-302 {
+  width: 302px;
+}
+
+.card-2 > .card-text,
+.card-4 > .card-text {
+  margin-bottom: 0;
+}
+
+.card-1:hover {
+  background-color: var(--main);
+}
+
+.card-1:hover .numbers {
+  color: var(--white);
+}
+
+.card-1:hover .card-headlines {
+  color: var(--white);
+}
+
+.card-1:hover .card-text {
+  color: var(--white);
+}
+
+.card-2:hover {
+  background-color: var(--main);
+}
+
+.card-2:hover .numbers {
+  color: var(--white);
+}
+
+.card-2:hover .card-headlines {
+  color: var(--white);
+}
+
+.card-2:hover .card-text {
+  color: var(--white);
+}
+
+.card-3:hover {
+  background-color: var(--main);
+}
+
+.card-3:hover .numbers {
+  color: var(--white);
+}
+
+.card-3:hover .card-headlines {
+  color: var(--white);
+}
+
+.card-3:hover .card-text {
+  color: var(--white);
+}
+
+.card-4:hover {
+  background-color: var(--main);
+}
+
+.card-4:hover .numbers {
+  color: var(--white);
+}
+
+.card-4:hover .card-headlines {
+  color: var(--white);
+}
+
+.card-4:hover .card-text {
+  color: var(--white);
+}
+
+.card-5:hover {
+  background-color: var(--main);
+}
+
+.card-5:hover .numbers {
+  color: var(--white);
+}
+
+.card-5:hover .card-headlines {
+  color: var(--white);
+}
+
+.card-5:hover .card-text {
+  color: var(--white);
+}
+
+.menu-1 > a,
+.menu-2 > a {
+  display: contents;
+
+  text-decoration: none;
+}
