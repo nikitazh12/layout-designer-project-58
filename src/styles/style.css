@@ -152,3 +152,42 @@ h1 {
   font-family: OpenSans, serif;
   line-height: 26px;
 }
+
+/** Секция-2 **/
+
+.video-section {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.video-headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1110px;
+}
+
+.black {
+  color: var(--dark);
+}
+
+.text-video {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--dark);
+  font-weight: 400;
+  font-size: 16px;
+  font-family: OpenSans, serif;
+  font-style: normal;
+  line-height: 160%;
+}
+
+.video {
+  color: rgb(0, 0, 0 / 15%);
+  filter: drop-shadow(0 16px 32px);
+}
+
+/** Секция-3 **/
