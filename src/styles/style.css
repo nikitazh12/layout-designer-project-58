@@ -464,3 +464,75 @@ h1 {
   font-style: normal;
   line-height: 26px;
 }
+
+/** Секция-5 (стили для 2, 4 секция) **/
+
+#premature-optimization {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--brown);
+}
+
+#premature-optimization::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  content: "";
+}
+
+.topic-w {
+  margin: 0;
+  color: var(--translucent-white);
+  font-weight: 400;
+  font-size: 24px;
+  font-family: Neucha, serif;
+  font-style: normal;
+  line-height: 29px;
+}
+
+.h-white {
+  margin: 0;
+  color: var(--white);
+  font-weight: 400;
+  font-size: var(--h1);
+  font-family: Neucha, serif;
+  line-height: var(--lineheight-headline);
+}
+
+.section-2-4-explanation {
+  margin-top: 30px;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 34px;
+  font-family: Neucha, serif;
+  font-style: normal;
+  line-height: 41px;
+}
+
+.how-it-works-text-w {
+  margin: 0;
+  padding: 5px 0 5px 10px;
+  color: var(--brown);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: OpenSans, serif;
+  font-style: normal;
+  line-height: 17px;
+  text-transform: uppercase;
+  background-color: var(--white);
+}
+
+.text-columns-2-w {
+  margin-top: 0;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+  font-family: OpenSans, serif;
+  font-style: normal;
+  line-height: 26px;
+}
